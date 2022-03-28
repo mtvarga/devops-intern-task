@@ -9,7 +9,7 @@ terraform {
     }
     
     backend "azurerm" {
-        resource_group_name = "devops-terraform-intern-task"
+        resource_group_name = "devops-terraform-intern-task-states"
         storage_account_name = "devopsinterntfstatestore"
         container_name = "tfvmstates"
         key = "tfvm.tfstate"
